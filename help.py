@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 Movie = input("Movie_name : ")
 
 # connecting DB with python
-mydb = conn.connect(host="localhost", user="root", passwd="_Aj@y1234_")
+mydb = conn.connect(host="localhost", user="root", passwd="****")
 Cursor = mydb.cursor()
 
 try:
